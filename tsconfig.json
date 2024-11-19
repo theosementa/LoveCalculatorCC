@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",    // Dossier de sortie pour les fichiers JS compilés
+    "rootDir": "./src",    // Répertoire racine de vos fichiers TypeScript
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts"   // Inclure tous les fichiers .ts dans le dossier src
+  ],
+  "exclude": [
+    "node_modules"  // Exclure le dossier node_modules
+  ]
+}

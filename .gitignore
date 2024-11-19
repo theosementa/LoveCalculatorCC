@@ -1,0 +1,9 @@
+/dist
+/node_modules
+
+# Ignorer les fichiers de configuration IDE
+.vscode/
+.idea/
+
+# Ignorer les fichiers temporaires
+*.log
